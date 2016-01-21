@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="9531" systemVersion="15D21" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="YdI-cO-2yW">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="9515"/>
+    </dependencies>
+    <scenes>
+        <!--STD Tx Guide-->
+        <scene sceneID="got-5s-e7l">
+            <objects>
+                <controller identifier="Conditions" title="STD Tx Guide" id="YdI-cO-2yW" customClass="ConditionsInterfaceController" customModule="StdWatch_WatchKit_Extension">
+                    <items>
+                        <table alignment="left" id="fGT-Tm-6HC" userLabel="Conditions Table">
+                            <items>
+                                <tableRow identifier="ConditionRow" id="91k-Oz-tu4" customClass="ConditionRowController" customModule="StdWatch_WatchKit_Extension">
+                                    <group key="rootItem" width="1" height="0.0" alignment="left" spacing="6" id="EDC-IB-iYy">
+                                        <items>
+                                            <label width="129.5" alignment="left" verticalAlignment="center" text="Chlamydia" numberOfLines="0" id="qDB-Ea-OkX" userLabel="Condition Label">
+                                                <fontDescription key="font" type="system" weight="semibold" pointSize="20"/>
+                                            </label>
+                                        </items>
+                                    </group>
+                                    <connections>
+                                        <outlet property="originLabel" destination="qDB-Ea-OkX" id="Drf-BW-Hqp"/>
+                                    </connections>
+                                </tableRow>
+                            </items>
+                        </table>
+                    </items>
+                    <connections>
+                        <outlet property="conditionsTable" destination="fGT-Tm-6HC" id="aOC-4J-zzg"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="337" y="313"/>
+        </scene>
+        <!--Condition-->
+        <scene sceneID="gVY-Fm-S5v">
+            <objects>
+                <controller identifier="Condition" hidesWhenLoading="NO" id="a3I-lG-PkI" customClass="ConditionInterfaceController" customModule="StdWatch_WatchKit_Extension">
+                    <items>
+                        <group alignment="left" layout="vertical" id="4TO-iA-QzI">
+                            <items>
+                                <separator alignment="left" id="gaY-NT-bhx"/>
+                                <label width="1" alignment="left" text="Regimen Label" numberOfLines="0" id="ws6-Sw-cOo" userLabel="Regimen Label"/>
+                            </items>
+                        </group>
+                        <group width="1" height="142.5" alignment="left" id="2ex-7O-MaT">
+                            <edgeInsets key="margins" left="0.0" right="0.0" top="0.0" bottom="0.0"/>
+                        </group>
+                    </items>
+                    <connections>
+                        <outlet property="regimensLabel" destination="ws6-Sw-cOo" id="b9D-Cj-iMs"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="524" y="313"/>
+        </scene>
+        <!--Regimens-->
+        <scene sceneID="x8u-M1-0g8">
+            <objects>
+                <controller identifier="Regimens" id="SLs-ms-zYG" customClass="RegimensInterfaceController" customModule="StdWatch_WatchKit_Extension">
+                    <items>
+                        <table alignment="left" id="6hw-xb-KSU" userLabel="Regimens Table">
+                            <items>
+                                <tableRow identifier="RegimenRow" id="qFC-Vu-7I5" customClass="RegimenRowController" customModule="StdWatch_WatchKit_Extension">
+                                    <group key="rootItem" width="1" alignment="left" id="Sys-qF-bTW">
+                                        <items>
+                                            <label width="1" alignment="left" text="Recommend Regimen" numberOfLines="0" id="wRi-m3-aTa"/>
+                                        </items>
+                                    </group>
+                                    <connections>
+                                        <outlet property="regimenLabel" destination="wRi-m3-aTa" id="SH1-eK-XYh"/>
+                                    </connections>
+                                </tableRow>
+                            </items>
+                        </table>
+                    </items>
+                    <connections>
+                        <outlet property="regimensTable" destination="6hw-xb-KSU" id="JMW-bI-6u1"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="520" y="580"/>
+        </scene>
+        <!--Meds-->
+        <scene sceneID="rOU-S2-fso">
+            <objects>
+                <controller identifier="Meds" id="BoS-QK-Xhl" customClass="MedsInterfaceController" customModule="StdWatch_WatchKit_Extension">
+                    <items>
+                        <table alignment="left" id="JRV-xX-GYO" userLabel="Meds Table">
+                            <items>
+                                <tableRow identifier="MedRow" selectable="NO" id="dT1-H8-z5z" customClass="MedRowController" customModule="StdWatch_WatchKit_Extension">
+                                    <group key="rootItem" width="1" height="0.0" alignment="left" layout="vertical" spacing="4" id="y2E-L5-fYb">
+                                        <items>
+                                            <label alignment="left" text="Pill 10 mg" textAlignment="left" numberOfLines="0" id="wbP-sS-9m5"/>
+                                        </items>
+                                    </group>
+                                    <connections>
+                                        <outlet property="medLabel" destination="wbP-sS-9m5" id="n1h-kO-rWd"/>
+                                    </connections>
+                                </tableRow>
+                                <tableRow identifier="SeperatorRow" id="ULe-AV-ffN" customClass="SeperatorRowController" customModule="StdWatch_WatchKit_Extension">
+                                    <group key="rootItem" width="1" height="0.0" alignment="left" id="BRC-9D-VUB">
+                                        <items>
+                                            <label width="1" alignment="left" text="OR" textAlignment="center" id="dlL-y0-S8C" userLabel="Seperator Label">
+                                                <color key="textColor" red="0.015686274510000001" green="0.87058823529999996" blue="0.4431372549" alpha="1" colorSpace="calibratedRGB"/>
+                                                <fontDescription key="font" style="UICTFontTextStyleHeadline"/>
+                                            </label>
+                                        </items>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                    </group>
+                                    <connections>
+                                        <outlet property="seperatorLabel" destination="dlL-y0-S8C" id="lfp-ch-fYg"/>
+                                    </connections>
+                                </tableRow>
+                            </items>
+                        </table>
+                    </items>
+                    <connections>
+                        <outlet property="medsTable" destination="JRV-xX-GYO" id="3nw-Ln-cpX"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="738" y="580"/>
+        </scene>
+    </scenes>
+    <color key="tintColor" red="0.2278845283918933" green="0.48761648325437568" blue="0.88917589896696825" alpha="1" colorSpace="calibratedRGB"/>
+</document>

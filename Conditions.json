@@ -1,0 +1,23 @@
+ [
+  {
+  "condition": "Bacterial Vaginosis",
+  "rec-reg-header": "Recommended Regimens",
+  "rec-reg-med":"Metronidazole 500 mg orally twice a day for 7 days",
+  "alt-reg-header": "Alternative Regimens",
+  "alt-reg-med":"Tinidazole 2 g orally once daily for 2 days"
+  },
+  {
+  "condition": "Cervicitis",
+      "rec-reg-header": "Recommended Regimens for Presumptive Treatment",
+      "rec-reg-med":"Azithromycin 1 g orally in a single dose",
+      "alt-reg-header": "",
+      "alt-reg-med":""
+  },
+  {
+  "condition": "Chancroid",
+  "rec-reg-header": "Recommended Regimens",
+  "rec-reg-med":"Azithromycin 1 g orally in a single dose",
+  "alt-reg-header": "Alternative Regimens",
+  "alt-reg-med":"Tinidazole 2 g orally once daily for 2 days"
+  },
+]

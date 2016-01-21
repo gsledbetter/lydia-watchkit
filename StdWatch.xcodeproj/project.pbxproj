@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		371861621C500E4E003F8D69 /* RegimensInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 371861611C500E4E003F8D69 /* RegimensInterfaceController.swift */; };
+		376980621C504861000CBC2B /* MedsInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376980611C504861000CBC2B /* MedsInterfaceController.swift */; };
+		376980641C504924000CBC2B /* MedRowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376980631C504924000CBC2B /* MedRowController.swift */; };
+		376980661C506F22000CBC2B /* SeperatorRowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376980651C506F22000CBC2B /* SeperatorRowController.swift */; };
+		37826F951C503A050073B749 /* RegimenRowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37826F941C503A050073B749 /* RegimenRowController.swift */; };
+		37EFB3E91C4EB00D00BFFA08 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37EFB3E81C4EB00D00BFFA08 /* AppDelegate.swift */; };
+		37EFB3EB1C4EB00D00BFFA08 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37EFB3EA1C4EB00D00BFFA08 /* ViewController.swift */; };
+		37EFB3EE1C4EB00D00BFFA08 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37EFB3EC1C4EB00D00BFFA08 /* Main.storyboard */; };
+		37EFB3F01C4EB00D00BFFA08 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37EFB3EF1C4EB00D00BFFA08 /* Assets.xcassets */; };
+		37EFB3F31C4EB00D00BFFA08 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37EFB3F11C4EB00D00BFFA08 /* LaunchScreen.storyboard */; };
+		37EFB3F81C4EB00D00BFFA08 /* StdWatch WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 37EFB3F71C4EB00D00BFFA08 /* StdWatch WatchKit App.app */; };
+		37EFB4001C4EB00D00BFFA08 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37EFB3FF1C4EB00D00BFFA08 /* Assets.xcassets */; };
+		37EFB4071C4EB00D00BFFA08 /* StdWatch WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 37EFB4061C4EB00D00BFFA08 /* StdWatch WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		37EFB40C1C4EB00D00BFFA08 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37EFB40B1C4EB00D00BFFA08 /* InterfaceController.swift */; };
+		37EFB40E1C4EB00D00BFFA08 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37EFB40D1C4EB00D00BFFA08 /* ExtensionDelegate.swift */; };
+		37EFB4101C4EB00D00BFFA08 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37EFB40F1C4EB00D00BFFA08 /* Assets.xcassets */; };
+		37EFB4201C4ED82400BFFA08 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37EFB41F1C4ED82400BFFA08 /* Interface.storyboard */; };
+		37EFB4241C4ED83F00BFFA08 /* ConditionInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37EFB4211C4ED83F00BFFA08 /* ConditionInterfaceController.swift */; };
+		37EFB4251C4ED83F00BFFA08 /* ConditionsInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37EFB4221C4ED83F00BFFA08 /* ConditionsInterfaceController.swift */; };
+		37EFB4261C4ED83F00BFFA08 /* ConditionRowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37EFB4231C4ED83F00BFFA08 /* ConditionRowController.swift */; };
+		37EFB42A1C4ED86700BFFA08 /* Conditions.json in Resources */ = {isa = PBXBuildFile; fileRef = 37EFB4281C4ED86700BFFA08 /* Conditions.json */; };
+		37EFB42B1C4ED86700BFFA08 /* Condition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37EFB4291C4ED86700BFFA08 /* Condition.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		37EFB3F91C4EB00D00BFFA08 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 37EFB3DD1C4EB00D00BFFA08 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 37EFB3F61C4EB00D00BFFA08;
+			remoteInfo = "StdWatch WatchKit App";
+		};
+		37EFB4081C4EB00D00BFFA08 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 37EFB3DD1C4EB00D00BFFA08 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 37EFB4051C4EB00D00BFFA08;
+			remoteInfo = "StdWatch WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		37EFB4171C4EB00D00BFFA08 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				37EFB4071C4EB00D00BFFA08 /* StdWatch WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37EFB41B1C4EB00D00BFFA08 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				37EFB3F81C4EB00D00BFFA08 /* StdWatch WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		371861611C500E4E003F8D69 /* RegimensInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegimensInterfaceController.swift; sourceTree = "<group>"; };
+		376980611C504861000CBC2B /* MedsInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MedsInterfaceController.swift; sourceTree = "<group>"; };
+		376980631C504924000CBC2B /* MedRowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MedRowController.swift; sourceTree = "<group>"; };
+		376980651C506F22000CBC2B /* SeperatorRowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeperatorRowController.swift; sourceTree = "<group>"; };
+		37826F941C503A050073B749 /* RegimenRowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegimenRowController.swift; sourceTree = "<group>"; };
+		37EFB3E51C4EB00D00BFFA08 /* StdWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StdWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		37EFB3E81C4EB00D00BFFA08 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		37EFB3EA1C4EB00D00BFFA08 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		37EFB3ED1C4EB00D00BFFA08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		37EFB3EF1C4EB00D00BFFA08 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		37EFB3F21C4EB00D00BFFA08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		37EFB3F41C4EB00D00BFFA08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37EFB3F71C4EB00D00BFFA08 /* StdWatch WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "StdWatch WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		37EFB3FF1C4EB00D00BFFA08 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		37EFB4011C4EB00D00BFFA08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37EFB4061C4EB00D00BFFA08 /* StdWatch WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "StdWatch WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		37EFB40B1C4EB00D00BFFA08 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		37EFB40D1C4EB00D00BFFA08 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		37EFB40F1C4EB00D00BFFA08 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		37EFB4111C4EB00D00BFFA08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37EFB41F1C4ED82400BFFA08 /* Interface.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Interface.storyboard; sourceTree = "<group>"; };
+		37EFB4211C4ED83F00BFFA08 /* ConditionInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConditionInterfaceController.swift; sourceTree = "<group>"; };
+		37EFB4221C4ED83F00BFFA08 /* ConditionsInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConditionsInterfaceController.swift; sourceTree = "<group>"; };
+		37EFB4231C4ED83F00BFFA08 /* ConditionRowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConditionRowController.swift; sourceTree = "<group>"; };
+		37EFB4281C4ED86700BFFA08 /* Conditions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Conditions.json; sourceTree = "<group>"; };
+		37EFB4291C4ED86700BFFA08 /* Condition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Condition.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		37EFB3E21C4EB00D00BFFA08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37EFB4031C4EB00D00BFFA08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		37EFB3DC1C4EB00D00BFFA08 = {
+			isa = PBXGroup;
+			children = (
+				37EFB4271C4ED85900BFFA08 /* Shared */,
+				37EFB3E71C4EB00D00BFFA08 /* StdWatch */,
+				37EFB3FB1C4EB00D00BFFA08 /* StdWatch WatchKit App */,
+				37EFB40A1C4EB00D00BFFA08 /* StdWatch WatchKit Extension */,
+				37EFB3E61C4EB00D00BFFA08 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		37EFB3E61C4EB00D00BFFA08 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				37EFB3E51C4EB00D00BFFA08 /* StdWatch.app */,
+				37EFB3F71C4EB00D00BFFA08 /* StdWatch WatchKit App.app */,
+				37EFB4061C4EB00D00BFFA08 /* StdWatch WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		37EFB3E71C4EB00D00BFFA08 /* StdWatch */ = {
+			isa = PBXGroup;
+			children = (
+				37EFB3E81C4EB00D00BFFA08 /* AppDelegate.swift */,
+				37EFB3EA1C4EB00D00BFFA08 /* ViewController.swift */,
+				37EFB3EC1C4EB00D00BFFA08 /* Main.storyboard */,
+				37EFB3EF1C4EB00D00BFFA08 /* Assets.xcassets */,
+				37EFB3F11C4EB00D00BFFA08 /* LaunchScreen.storyboard */,
+				37EFB3F41C4EB00D00BFFA08 /* Info.plist */,
+			);
+			path = StdWatch;
+			sourceTree = "<group>";
+		};
+		37EFB3FB1C4EB00D00BFFA08 /* StdWatch WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				37EFB41F1C4ED82400BFFA08 /* Interface.storyboard */,
+				37EFB3FF1C4EB00D00BFFA08 /* Assets.xcassets */,
+				37EFB4011C4EB00D00BFFA08 /* Info.plist */,
+			);
+			path = "StdWatch WatchKit App";
+			sourceTree = "<group>";
+		};
+		37EFB40A1C4EB00D00BFFA08 /* StdWatch WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				37EFB4211C4ED83F00BFFA08 /* ConditionInterfaceController.swift */,
+				37EFB4221C4ED83F00BFFA08 /* ConditionsInterfaceController.swift */,
+				37EFB4231C4ED83F00BFFA08 /* ConditionRowController.swift */,
+				371861611C500E4E003F8D69 /* RegimensInterfaceController.swift */,
+				37EFB40B1C4EB00D00BFFA08 /* InterfaceController.swift */,
+				37EFB40D1C4EB00D00BFFA08 /* ExtensionDelegate.swift */,
+				37EFB40F1C4EB00D00BFFA08 /* Assets.xcassets */,
+				37EFB4111C4EB00D00BFFA08 /* Info.plist */,
+				37826F941C503A050073B749 /* RegimenRowController.swift */,
+				376980611C504861000CBC2B /* MedsInterfaceController.swift */,
+				376980631C504924000CBC2B /* MedRowController.swift */,
+				376980651C506F22000CBC2B /* SeperatorRowController.swift */,
+			);
+			path = "StdWatch WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		37EFB4271C4ED85900BFFA08 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				37EFB4281C4ED86700BFFA08 /* Conditions.json */,
+				37EFB4291C4ED86700BFFA08 /* Condition.swift */,
+			);
+			name = Shared;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		37EFB3E41C4EB00D00BFFA08 /* StdWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37EFB41C1C4EB00D00BFFA08 /* Build configuration list for PBXNativeTarget "StdWatch" */;
+			buildPhases = (
+				37EFB3E11C4EB00D00BFFA08 /* Sources */,
+				37EFB3E21C4EB00D00BFFA08 /* Frameworks */,
+				37EFB3E31C4EB00D00BFFA08 /* Resources */,
+				37EFB41B1C4EB00D00BFFA08 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				37EFB3FA1C4EB00D00BFFA08 /* PBXTargetDependency */,
+			);
+			name = StdWatch;
+			productName = StdWatch;
+			productReference = 37EFB3E51C4EB00D00BFFA08 /* StdWatch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		37EFB3F61C4EB00D00BFFA08 /* StdWatch WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37EFB4181C4EB00D00BFFA08 /* Build configuration list for PBXNativeTarget "StdWatch WatchKit App" */;
+			buildPhases = (
+				37EFB3F51C4EB00D00BFFA08 /* Resources */,
+				37EFB4171C4EB00D00BFFA08 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				37EFB4091C4EB00D00BFFA08 /* PBXTargetDependency */,
+			);
+			name = "StdWatch WatchKit App";
+			productName = "StdWatch WatchKit App";
+			productReference = 37EFB3F71C4EB00D00BFFA08 /* StdWatch WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		37EFB4051C4EB00D00BFFA08 /* StdWatch WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37EFB4141C4EB00D00BFFA08 /* Build configuration list for PBXNativeTarget "StdWatch WatchKit Extension" */;
+			buildPhases = (
+				37EFB4021C4EB00D00BFFA08 /* Sources */,
+				37EFB4031C4EB00D00BFFA08 /* Frameworks */,
+				37EFB4041C4EB00D00BFFA08 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "StdWatch WatchKit Extension";
+			productName = "StdWatch WatchKit Extension";
+			productReference = 37EFB4061C4EB00D00BFFA08 /* StdWatch WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		37EFB3DD1C4EB00D00BFFA08 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = IIU;
+				TargetAttributes = {
+					37EFB3E41C4EB00D00BFFA08 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					37EFB3F61C4EB00D00BFFA08 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					37EFB4051C4EB00D00BFFA08 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 37EFB3E01C4EB00D00BFFA08 /* Build configuration list for PBXProject "StdWatch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 37EFB3DC1C4EB00D00BFFA08;
+			productRefGroup = 37EFB3E61C4EB00D00BFFA08 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				37EFB3E41C4EB00D00BFFA08 /* StdWatch */,
+				37EFB3F61C4EB00D00BFFA08 /* StdWatch WatchKit App */,
+				37EFB4051C4EB00D00BFFA08 /* StdWatch WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		37EFB3E31C4EB00D00BFFA08 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37EFB3F31C4EB00D00BFFA08 /* LaunchScreen.storyboard in Resources */,
+				37EFB3F01C4EB00D00BFFA08 /* Assets.xcassets in Resources */,
+				37EFB3EE1C4EB00D00BFFA08 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37EFB3F51C4EB00D00BFFA08 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37EFB4201C4ED82400BFFA08 /* Interface.storyboard in Resources */,
+				37EFB4001C4EB00D00BFFA08 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37EFB4041C4EB00D00BFFA08 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37EFB4101C4EB00D00BFFA08 /* Assets.xcassets in Resources */,
+				37EFB42A1C4ED86700BFFA08 /* Conditions.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		37EFB3E11C4EB00D00BFFA08 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37EFB3EB1C4EB00D00BFFA08 /* ViewController.swift in Sources */,
+				37EFB3E91C4EB00D00BFFA08 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37EFB4021C4EB00D00BFFA08 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37826F951C503A050073B749 /* RegimenRowController.swift in Sources */,
+				37EFB4241C4ED83F00BFFA08 /* ConditionInterfaceController.swift in Sources */,
+				37EFB42B1C4ED86700BFFA08 /* Condition.swift in Sources */,
+				376980661C506F22000CBC2B /* SeperatorRowController.swift in Sources */,
+				371861621C500E4E003F8D69 /* RegimensInterfaceController.swift in Sources */,
+				37EFB4251C4ED83F00BFFA08 /* ConditionsInterfaceController.swift in Sources */,
+				37EFB40E1C4EB00D00BFFA08 /* ExtensionDelegate.swift in Sources */,
+				37EFB4261C4ED83F00BFFA08 /* ConditionRowController.swift in Sources */,
+				376980641C504924000CBC2B /* MedRowController.swift in Sources */,
+				37EFB40C1C4EB00D00BFFA08 /* InterfaceController.swift in Sources */,
+				376980621C504861000CBC2B /* MedsInterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		37EFB3FA1C4EB00D00BFFA08 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 37EFB3F61C4EB00D00BFFA08 /* StdWatch WatchKit App */;
+			targetProxy = 37EFB3F91C4EB00D00BFFA08 /* PBXContainerItemProxy */;
+		};
+		37EFB4091C4EB00D00BFFA08 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 37EFB4051C4EB00D00BFFA08 /* StdWatch WatchKit Extension */;
+			targetProxy = 37EFB4081C4EB00D00BFFA08 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		37EFB3EC1C4EB00D00BFFA08 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				37EFB3ED1C4EB00D00BFFA08 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		37EFB3F11C4EB00D00BFFA08 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				37EFB3F21C4EB00D00BFFA08 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		37EFB4121C4EB00D00BFFA08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		37EFB4131C4EB00D00BFFA08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		37EFB4151C4EB00D00BFFA08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "StdWatch WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gov.cdc.iiu.StdWatch.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.1;
+			};
+			name = Debug;
+		};
+		37EFB4161C4EB00D00BFFA08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "StdWatch WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gov.cdc.iiu.StdWatch.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.1;
+			};
+			name = Release;
+		};
+		37EFB4191C4EB00D00BFFA08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = StdWatch_WatchKit_Extension;
+				INFOPLIST_FILE = "StdWatch WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = gov.cdc.iiu.StdWatch.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.1;
+			};
+			name = Debug;
+		};
+		37EFB41A1C4EB00D00BFFA08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = StdWatch_WatchKit_Extension;
+				INFOPLIST_FILE = "StdWatch WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = gov.cdc.iiu.StdWatch.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.1;
+			};
+			name = Release;
+		};
+		37EFB41D1C4EB00D00BFFA08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = StdWatch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gov.cdc.iiu.StdWatch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		37EFB41E1C4EB00D00BFFA08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = StdWatch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gov.cdc.iiu.StdWatch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		37EFB3E01C4EB00D00BFFA08 /* Build configuration list for PBXProject "StdWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37EFB4121C4EB00D00BFFA08 /* Debug */,
+				37EFB4131C4EB00D00BFFA08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37EFB4141C4EB00D00BFFA08 /* Build configuration list for PBXNativeTarget "StdWatch WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37EFB4151C4EB00D00BFFA08 /* Debug */,
+				37EFB4161C4EB00D00BFFA08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37EFB4181C4EB00D00BFFA08 /* Build configuration list for PBXNativeTarget "StdWatch WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37EFB4191C4EB00D00BFFA08 /* Debug */,
+				37EFB41A1C4EB00D00BFFA08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37EFB41C1C4EB00D00BFFA08 /* Build configuration list for PBXNativeTarget "StdWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37EFB41D1C4EB00D00BFFA08 /* Debug */,
+				37EFB41E1C4EB00D00BFFA08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 37EFB3DD1C4EB00D00BFFA08 /* Project object */;
+}
